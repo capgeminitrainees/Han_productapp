@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="script/myvalidation.js"></script>
+<link href="styles/mystyles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<h1 align="center">Login Form</h1>
+<hr>
+<!-- inlinestyles -->
+<fieldset class="mycls">
+
+<form method="post" action="loginServlet" onsubmit="return validate()">
+<h3>Login</h3>
+<table>
+	<tr>
+	<td>UserName:</td>
+	<td>
+	<input type="text" name="userName" size="20" id="userName">
+	</td>
+	<td>
+	<div id="usrErr" class="errMsg"></div>
+	</td>
+	</tr>
+	<tr>
+	<td>Password:</td>
+	<td>
+	<input type="password" name="userPwd" size="20" id="userPwd">
+	</td>
+	<td>
+	<div id="pwdErr" class="errMsg"></div>
+	</td> 
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<input type="submit" value="Login">
+			<input type="reset" value="Clear">
+			<!-- <button>Save</button> -->
+		</td>
+	</tr>
+	
+</table>
+</form>
+</fieldset>
+
+<hr>
+
+<img  src="/Day1-ProductApp/images/micky1.png">
+</body>
+</html>

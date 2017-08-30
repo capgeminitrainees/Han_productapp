@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+.mycls{
+	margin-left:500px;
+}
+
+.errMsg{
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+h1{
+	color: green;
+}
